@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&family=Engagement&family=Inclusive+Sans&family=Kavivanar&family=Lexend+Tera:wght@200&family=MuseoModerno:ital@1&family=Nunito:wght@800&family=Onest:wght@300&family=Pixelify+Sans&family=Poppins&family=Red+Hat+Mono:ital,wght@1,300&family=Roboto+Mono:wght@700&family=Roboto:wght@100;400&family=Rubik+Glitch&family=Rubik+Vinyl&family=Shalimar&family=Sometype+Mono&family=Ubuntu:wght@700&family=Wire+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bayon&family=Caprasimo&family=Carrois+Gothic+SC&family=Denk+One&family=Fira+Sans&family=Fjalla+One&family=GFS+Neohellenic&family=Heebo:wght@900&family=Inter:wght@900&family=Lexend+Giga&family=Merriweather:wght@900&family=Metal+Mania&family=Montserrat:wght@700&family=Mukta:wght@800&family=Nabla&family=New+Rocker&family=Noto+Sans:wght@300&family=Nunito+Sans:opsz,wght@6..12,600;6..12,1000&family=Open+Sans&family=Oxygen:wght@700&family=Poppins:wght@800&family=Prompt&family=Roboto+Condensed:wght@300;400&family=Roboto+Mono&family=Roboto:wght@500&family=Tektur:wght@600&family=Tilt+Prism&family=Voces&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: url(https://static.vecteezy.com/system/resources/previews/027/186/003/non_2x/black-man-wearing-vr-headset-exploring-virtual-reality-world-with-empty-space-on-the-left-for-copy-free-photo.jpg);
+  /*background: url(https://usv.edu/wp-content/uploads/2021/06/virtual-reality-vr-e1624313135975.jpg);*/
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-backdrop-filter: blur(0px);
+          backdrop-filter: blur(0px);
+}
+
+.navbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navbar .panels-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 6%;
+}
+.navbar .panels-block .nav-text {
+  color: #fff;
+  margin-left: 33px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.logo-block {
+  margin-left: 6%;
+  cursor: pointer;
+}
+.logo-block .logo-text {
+  color: #fff;
+  position: absolute;
+  margin-left: 5px;
+  text-align: center;
+  top: 80px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+i {
+  font-size: 90px;
+  color: #fff;
+}
+
+.first-page {
+  width: 100%;
+  height: 480px;
+}
+.first-page .first-text-block {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 1000;
+  margin-top: 70px;
+  margin-left: 7%;
+  font-family: "Carrois Gothic SC", sans-serif;
+}
+.first-page .first-text-block .text-1, .first-page .first-text-block .text-3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.first-page .first-text-block .buy-btn {
+  font-size: 35px;
+  position: absolute;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.first-page .second-text-block {
+  color: #fff;
+  font-size: 33px;
+  font-weight: 1000;
+  text-align: right;
+  position: relative;
+  bottom: 257px;
+  margin-right: 6%;
+}
+.first-page .second-text-block .text-2-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-top: 10px;
+}
+.first-page .second-text-block .text-2 {
+  font-size: 16px;
+  width: 300px;
+  text-align: right;
+  font-weight: 100;
+}
+
+.site-text {
+  color: #fff;
+  position: absolute;
+  top: 595px;
+  margin-left: 7%;
+  font-weight: 100;
+}
+
+.icons-block {
+  position: absolute;
+  right: 6%;
+  top: 580px;
+}
+
+.ins-i,
+.fc-i,
+.tw-i,
+.wt-i {
+  background: #fff;
+  padding: 3px;
+  color: #000;
+  font-size: 23px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
